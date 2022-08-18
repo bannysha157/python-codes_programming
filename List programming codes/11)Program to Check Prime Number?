@@ -1,0 +1,26 @@
+Check Prime Number: there are 4 ways 
+=>using for loop
+=>Using while loop
+=>Using Function
+=>Using Class
+
+
+
+
+Method 1: using for loop:
+
+print("Enter the Number: ")
+num = int(input())
+p = 0
+for i in range(2, num):
+    if num%i==0:
+        p = 1
+        break
+if p==0:
+    print("\nIt is a Prime Number")
+else:
+    print("\nIt is not a Prime Number")
+    
+    
+    
+    
