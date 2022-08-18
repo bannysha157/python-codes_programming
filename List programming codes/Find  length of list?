@@ -1,0 +1,22 @@
+Method 1 : Using len():
+program:
+
+a = []
+a.append("I")
+a.append("WILL")
+a.append("NEVER")
+a.append("UP")
+print("The length of list is: ", len(a))
+
+Output: 
+The length of list is:  4
+
+
+
+program2:
+
+n = len([10, 20, 30])
+print("The length of list is: ", n)
+
+Output: 
+The length of list is:  3
