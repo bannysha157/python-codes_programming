@@ -1,0 +1,25 @@
+
+Method #1:  if-else statement 
+
+PROGRAM:  
+def minimum(a, b):
+    if a <= b:
+        return a
+    else:
+        return b
+a = 2
+b = 4
+print(minimum(a, b))
+
+Output:
+2
+
+Method #2: Using min() function
+PROGRAM:
+a = 2
+b = 4
+minimum = min(a, b)
+print(minimum)
+
+Output:
+2
