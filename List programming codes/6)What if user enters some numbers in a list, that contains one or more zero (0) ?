@@ -1,0 +1,16 @@
+PROGRAM:
+
+nums = list()
+mul = 1
+print(end="Enter the Size: ")
+numsSize = int(input())
+print(end="Enter " +str(numsSize)+ " Elements: ")
+for i in range(numsSize):
+  nums.append(int(input()))
+  if nums[i]!=0:
+    mul = mul*nums[i]
+print("\nMultiplication Result = " +str(mul))
+
+
+o/p=enter the size is 6
+enter 6 elements:1 3 0 2 5 4
