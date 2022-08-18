@@ -1,0 +1,35 @@
+Method 1:using IF_ELSE :
+
+def maximum(a, b):
+    if a >= b:
+        return a
+    else:
+        return b
+a = 2
+b = 4
+print(maximum(a, b))
+
+Output
+4
+Method #2: Using max() function:
+This function is used to find the maximum of the values passed as its arguments.
+
+PROGRAM:: 
+#maximum of two numbers
+a = 2
+b = 4
+maximum = max(a, b)
+print(maximum)
+
+Output
+4
+
+
+Method 3: Using lambda function: 
+PROGRAM:
+a=2;b=4
+maximum = lambda a,b:a if a > b else b
+print(f'{maximum(a,b)} is a maximum number')
+
+Output:
+4 is a maximum number
