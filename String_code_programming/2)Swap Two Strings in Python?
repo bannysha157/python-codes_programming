@@ -1,0 +1,29 @@
+print("Enter the First String: ", end="")
+s1 = input()
+print("Enter the Second String: ", end="")
+s2 = input()
+
+print("\nString before swap:")
+print("s1 =", s1)
+print("s2 =", s2)
+
+temp = s1
+s1 = s2
+s2 = temp
+print("\nString after swap:")
+
+print("S1 =", s1)
+print("s2 =", s2)
+
+
+o/p=
+Enter the First String: bunny
+Enter the Second String: banny
+String before swap:
+s1 = bunny
+s2 = banny
+
+String after swap:
+S1 = banny
+s2 = bunny
+> 
