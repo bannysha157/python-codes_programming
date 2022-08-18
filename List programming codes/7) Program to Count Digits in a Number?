@@ -1,0 +1,29 @@
+=>Count digits in a Number using while loop
+=>Count digits in a Number using len() function
+
+program 1 : using while loop();
+
+print("Enter the Number: ")
+num = int(input())
+tot = 0
+while num:
+  num = int(num/10)
+  tot = tot+1
+print("\nTotal Digit: ")
+print(tot)
+
+o/p=enter the number 1056
+total digit 5 
+
+
+
+2)Count Digits using len():
+
+print(end="Enter the Number: ")
+num = int(input())
+num = str(num)
+numLen = len(num)
+print("\nTotal Digit: " + str(numLen))
+
+o/p=enter the number 401
+total digit 3
