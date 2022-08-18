@@ -1,0 +1,8 @@
+n = []
+print("Enter 10 Numbers: ")
+for i in range(10):
+  n.insert(i, int(input()))
+print("\nOdd Numbers: ")
+for i in range(10):
+  if n[i]%2!=0:
+    print(n[i])
