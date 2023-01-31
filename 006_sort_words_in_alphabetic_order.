@@ -1,0 +1,30 @@
+Python Program to Sort Words in Alphabetic Order
+In this program, you'll learn to sort the words in alphabetic order using for loop and display it.
+
+To understand this example, you should have the knowledge of the following Python programming topics:
+
+Python for Loop
+Python Strings
+String Methods
+
+
+
+
+# Example 1: sort alphabetically the words form a string provided by the user
+
+my_str = "The quick brown fox jumps over the lazy dog"
+# To take input from the user
+#my_str = input("Enter a string: ")
+# breakdown the string into a list of words
+words = [word.lower() for word in my_str.split()]
+# sort the list
+words.sort()
+# display the sorted words
+print("The sorted words are:")
+for word in words:
+    print(word)
+
+'''
+>>Output/Runtime Test Cases:  
+Hello how are you Hope doing well
+'''
